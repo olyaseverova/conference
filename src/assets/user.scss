@@ -1,0 +1,64 @@
+.user .projects-headline {
+    margin: 0 auto 14px auto;
+    
+    @media (min-width: $desktop-width) {
+        margin: 0 0 12px 0;
+    }
+}
+
+.users-list {
+    margin: 0 0 24px 0;
+    padding: 0;
+    
+    @media (min-width: $desktop-width) {
+        margin: 0 0 66px 0;
+    }
+
+    .users-list__item {
+        margin: 0 0 7px 0;
+        padding: 21px 30px;
+        
+        border-radius: 15px;
+        background-color: $color-white;
+        box-shadow: 10px 10px 15px $rgba-dark-grey;
+        
+        @media (min-width: $desktop-width) {
+            margin: 0 0 12px 0;
+            padding: 12px 31px;
+        }
+        
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+
+        .users-link {
+            position: relative;
+            display: block;
+            width: 130px;
+            margin: 16px 0 0 0;
+            color: $bg-blue;
+            text-decoration: none;
+
+            &::after {
+                position: absolute;
+                content: "";
+                width: 39px;
+                height: 8px;
+
+                top: 6px;
+                left: 82px;
+
+                background-image: url("../img/arrow-users.png");
+            }
+
+            &:hover,
+            &:focus {
+                text-decoration: underline;
+            }
+
+            &:active {
+                color: $bg-violet;
+            }
+        }
+    }
+}

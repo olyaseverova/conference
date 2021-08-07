@@ -1,0 +1,10 @@
+.admin__button {
+    display: block;
+    width: 355px;
+    height: 54px;
+    padding: 16px 0 0 0;
+
+    @media (min-width: $desktop-width) {
+        width: 340px;
+    }
+}

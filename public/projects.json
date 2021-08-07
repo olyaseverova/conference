@@ -1,0 +1,1232 @@
+[
+    {
+        "name": "3.1. Программа «Община»",
+        "files": [
+            "Название файла (тип файла)",
+            "Название файла (тип файла)"
+        ],
+        "leaders": [
+            {
+                "name": "Блохин С.В.",
+                "checked": false
+            },
+            {
+                "name": "Громова И.А.",
+                "checked": true
+            },
+            {
+                "name": "Аглая С.А.",
+                "checked": false
+            },
+            {
+                "name": "Комов С.В.",
+                "checked": false
+            },
+            {
+                "name": "Карбышев О.О.",
+                "checked": false
+            },
+            {
+                "name": "Кучков Н.В.",
+                "checked": false
+            },
+            {
+                "name": "Лазарева И.Б.",
+                "checked": false
+            },
+            {
+                "name": "Карая Л.Д",
+                "checked": false
+            },
+            {
+                "name": "Стариков П.П.",
+                "checked": false
+            },
+            {
+                "name": "Хрюпов В.В.",
+                "checked": false
+            },
+            {
+                "name": "Петроченков Д.И.",
+                "checked": false
+            },
+            {
+                "name": "Хлебников В.Г",
+                "checked": false
+            },
+            {
+                "name": "Чуваров И.И.",
+                "checked": false
+            },
+            {
+                "name": "Широков А.В.",
+                "checked": false
+            },
+            {
+                "name": "Алтарный С.В",
+                "checked": false
+            },
+            {
+                "name": "Бирюкова Е.А.",
+                "checked": false
+            }
+        ],
+        "editors": [
+            {
+                "name": "Благая С.В.",
+                "checked": true
+            },
+            {
+                "name": "Громов И.А.",
+                "checked": false
+            },
+            {
+                "name": "Золотилова С.А.",
+                "checked": false
+            },
+            {
+                "name": "Кустов С.В.",
+                "checked": false
+            },
+            {
+                "name": "Саева О.О.",
+                "checked": false
+            },
+            {
+                "name": "Строгов Н.В.",
+                "checked": false
+            },
+            {
+                "name": "Бутковский И.Б.",
+                "checked": false
+            },
+            {
+                "name": "Барина Л.Д",
+                "checked": false
+            },
+            {
+                "name": "Жуков А.П.",
+                "checked": false
+            },
+            {
+                "name": "Цветкова В.В.",
+                "checked": false
+            },
+            {
+                "name": "Ушакова Д.И.",
+                "checked": false
+            },
+            {
+                "name": "Ельченко В.Г",
+                "checked": false
+            },
+            {
+                "name": "Небрасова И.И.",
+                "checked": false
+            },
+            {
+                "name": "Генеральская А.В.",
+                "checked": false
+            },
+            {
+                "name": "Широков С.В",
+                "checked": false
+            },
+            {
+                "name": "Щёткин Е.А.",
+                "checked": false
+            }
+        ],
+        "readers": [
+            {
+                "name": "Болконская С.В.",
+                "checked": false
+            },
+            {
+                "name": "Заренина И.А.",
+                "checked": false
+            },
+            {
+                "name": "Хубеева С.А.",
+                "checked": false
+            },
+            {
+                "name": "Февральский С.В.",
+                "checked": false
+            },
+            {
+                "name": "Вайнберг О.О.",
+                "checked": false
+            },
+            {
+                "name": "Акимова Н.В.",
+                "checked": false
+            },
+            {
+                "name": "Петров И.Б.",
+                "checked": false
+            },
+            {
+                "name": "Рубко. Л.Д",
+                "checked": false
+            },
+            {
+                "name": "Окружной А.П.",
+                "checked": false
+            },
+            {
+                "name": "Лебедев В.В.",
+                "checked": false
+            },
+            {
+                "name": "Дружко Д.И.",
+                "checked": false
+            },
+            {
+                "name": "Корнилов В.Г",
+                "checked": false
+            },
+            {
+                "name": "Чумазов И.И.",
+                "checked": false
+            },
+            {
+                "name": "Шпилькин А.В.",
+                "checked": false
+            },
+            {
+                "name": "Сурикова С.В",
+                "checked": true
+            },
+            {
+                "name": "Клоп Е.А.",
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name": "3.2. Массмедиа",
+        "files": [
+            "Название файла (тип файла)",
+            "Название файла (тип файла)"
+        ],
+        "leaders": [
+            {
+                "name": "Блохин С.В.",
+                "checked": false
+            },
+            {
+                "name": "Громова И.А.",
+                "checked": true
+            },
+            {
+                "name": "Аглая С.А.",
+                "checked": false
+            },
+            {
+                "name": "Комов С.В.",
+                "checked": false
+            },
+            {
+                "name": "Карбышев О.О.",
+                "checked": false
+            },
+            {
+                "name": "Кучков Н.В.",
+                "checked": false
+            },
+            {
+                "name": "Лазарева И.Б.",
+                "checked": false
+            },
+            {
+                "name": "Карая Л.Д",
+                "checked": false
+            },
+            {
+                "name": "Стариков П.П.",
+                "checked": false
+            },
+            {
+                "name": "Хрюпов В.В.",
+                "checked": false
+            },
+            {
+                "name": "Петроченков Д.И.",
+                "checked": false
+            },
+            {
+                "name": "Хлебников В.Г",
+                "checked": false
+            },
+            {
+                "name": "Чуваров И.И.",
+                "checked": false
+            },
+            {
+                "name": "Широков А.В.",
+                "checked": false
+            },
+            {
+                "name": "Алтарный С.В",
+                "checked": false
+            },
+            {
+                "name": "Бирюкова Е.А.",
+                "checked": false
+            }
+        ],
+        "editors": [
+            {
+                "name": "Благая С.В.",
+                "checked": true
+            },
+            {
+                "name": "Громов И.А.",
+                "checked": false
+            },
+            {
+                "name": "Золотилова С.А.",
+                "checked": false
+            },
+            {
+                "name": "Кустов С.В.",
+                "checked": false
+            },
+            {
+                "name": "Саева О.О.",
+                "checked": false
+            },
+            {
+                "name": "Строгов Н.В.",
+                "checked": false
+            },
+            {
+                "name": "Бутковский И.Б.",
+                "checked": false
+            },
+            {
+                "name": "Барина Л.Д",
+                "checked": false
+            },
+            {
+                "name": "Жуков А.П.",
+                "checked": false
+            },
+            {
+                "name": "Цветкова В.В.",
+                "checked": false
+            },
+            {
+                "name": "Ушакова Д.И.",
+                "checked": false
+            },
+            {
+                "name": "Ельченко В.Г",
+                "checked": false
+            },
+            {
+                "name": "Небрасова И.И.",
+                "checked": false
+            },
+            {
+                "name": "Генеральская А.В.",
+                "checked": false
+            },
+            {
+                "name": "Широков С.В",
+                "checked": false
+            },
+            {
+                "name": "Щёткин Е.А.",
+                "checked": false
+            }
+        ],
+        "readers": [
+            {
+                "name": "Болконская С.В.",
+                "checked": false
+            },
+            {
+                "name": "Заренина И.А.",
+                "checked": false
+            },
+            {
+                "name": "Хубеева С.А.",
+                "checked": false
+            },
+            {
+                "name": "Февральский С.В.",
+                "checked": false
+            },
+            {
+                "name": "Вайнберг О.О.",
+                "checked": false
+            },
+            {
+                "name": "Акимова Н.В.",
+                "checked": false
+            },
+            {
+                "name": "Петров И.Б.",
+                "checked": false
+            },
+            {
+                "name": "Рубко. Л.Д",
+                "checked": false
+            },
+            {
+                "name": "Окружной А.П.",
+                "checked": false
+            },
+            {
+                "name": "Лебедев В.В.",
+                "checked": false
+            },
+            {
+                "name": "Дружко Д.И.",
+                "checked": false
+            },
+            {
+                "name": "Корнилов В.Г",
+                "checked": false
+            },
+            {
+                "name": "Чумазов И.И.",
+                "checked": false
+            },
+            {
+                "name": "Шпилькин А.В.",
+                "checked": false
+            },
+            {
+                "name": "Сурикова С.В",
+                "checked": true
+            },
+            {
+                "name": "Клоп Е.А.",
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name": "3.3. Программа Благотворительности",
+        "files": [
+            "Название файла (тип файла)",
+            "Название файла (тип файла)"
+        ],
+        "leaders": [
+            {
+                "name": "Блохин С.В.",
+                "checked": false
+            },
+            {
+                "name": "Громова И.А.",
+                "checked": true
+            },
+            {
+                "name": "Аглая С.А.",
+                "checked": false
+            },
+            {
+                "name": "Комов С.В.",
+                "checked": false
+            },
+            {
+                "name": "Карбышев О.О.",
+                "checked": false
+            },
+            {
+                "name": "Кучков Н.В.",
+                "checked": false
+            },
+            {
+                "name": "Лазарева И.Б.",
+                "checked": false
+            },
+            {
+                "name": "Карая Л.Д",
+                "checked": false
+            },
+            {
+                "name": "Стариков П.П.",
+                "checked": false
+            },
+            {
+                "name": "Хрюпов В.В.",
+                "checked": false
+            },
+            {
+                "name": "Петроченков Д.И.",
+                "checked": false
+            },
+            {
+                "name": "Хлебников В.Г",
+                "checked": false
+            },
+            {
+                "name": "Чуваров И.И.",
+                "checked": false
+            },
+            {
+                "name": "Широков А.В.",
+                "checked": false
+            },
+            {
+                "name": "Алтарный С.В",
+                "checked": false
+            },
+            {
+                "name": "Бирюкова Е.А.",
+                "checked": false
+            }
+        ],
+        "editors": [
+            {
+                "name": "Благая С.В.",
+                "checked": true
+            },
+            {
+                "name": "Громов И.А.",
+                "checked": false
+            },
+            {
+                "name": "Золотилова С.А.",
+                "checked": false
+            },
+            {
+                "name": "Кустов С.В.",
+                "checked": false
+            },
+            {
+                "name": "Саева О.О.",
+                "checked": false
+            },
+            {
+                "name": "Строгов Н.В.",
+                "checked": false
+            },
+            {
+                "name": "Бутковский И.Б.",
+                "checked": false
+            },
+            {
+                "name": "Барина Л.Д",
+                "checked": false
+            },
+            {
+                "name": "Жуков А.П.",
+                "checked": false
+            },
+            {
+                "name": "Цветкова В.В.",
+                "checked": false
+            },
+            {
+                "name": "Ушакова Д.И.",
+                "checked": false
+            },
+            {
+                "name": "Ельченко В.Г",
+                "checked": false
+            },
+            {
+                "name": "Небрасова И.И.",
+                "checked": false
+            },
+            {
+                "name": "Генеральская А.В.",
+                "checked": false
+            },
+            {
+                "name": "Широков С.В",
+                "checked": false
+            },
+            {
+                "name": "Щёткин Е.А.",
+                "checked": false
+            }
+        ],
+        "readers": [
+            {
+                "name": "Болконская С.В.",
+                "checked": false
+            },
+            {
+                "name": "Заренина И.А.",
+                "checked": false
+            },
+            {
+                "name": "Хубеева С.А.",
+                "checked": false
+            },
+            {
+                "name": "Февральский С.В.",
+                "checked": false
+            },
+            {
+                "name": "Вайнберг О.О.",
+                "checked": false
+            },
+            {
+                "name": "Акимова Н.В.",
+                "checked": false
+            },
+            {
+                "name": "Петров И.Б.",
+                "checked": false
+            },
+            {
+                "name": "Рубко. Л.Д",
+                "checked": false
+            },
+            {
+                "name": "Окружной А.П.",
+                "checked": false
+            },
+            {
+                "name": "Лебедев В.В.",
+                "checked": false
+            },
+            {
+                "name": "Дружко Д.И.",
+                "checked": false
+            },
+            {
+                "name": "Корнилов В.Г",
+                "checked": false
+            },
+            {
+                "name": "Чумазов И.И.",
+                "checked": false
+            },
+            {
+                "name": "Шпилькин А.В.",
+                "checked": false
+            },
+            {
+                "name": "Сурикова С.В",
+                "checked": true
+            },
+            {
+                "name": "Клоп Е.А.",
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name": "3.3. Программа Благотворительности",
+        "files": [
+            "Название файла (тип файла)",
+            "Название файла (тип файла)"
+        ],
+        "leaders": [
+            {
+                "name": "Блохин С.В.",
+                "checked": false
+            },
+            {
+                "name": "Громова И.А.",
+                "checked": true
+            },
+            {
+                "name": "Аглая С.А.",
+                "checked": false
+            },
+            {
+                "name": "Комов С.В.",
+                "checked": false
+            },
+            {
+                "name": "Карбышев О.О.",
+                "checked": false
+            },
+            {
+                "name": "Кучков Н.В.",
+                "checked": false
+            },
+            {
+                "name": "Лазарева И.Б.",
+                "checked": false
+            },
+            {
+                "name": "Карая Л.Д",
+                "checked": false
+            },
+            {
+                "name": "Стариков П.П.",
+                "checked": false
+            },
+            {
+                "name": "Хрюпов В.В.",
+                "checked": false
+            },
+            {
+                "name": "Петроченков Д.И.",
+                "checked": false
+            },
+            {
+                "name": "Хлебников В.Г",
+                "checked": false
+            },
+            {
+                "name": "Чуваров И.И.",
+                "checked": false
+            },
+            {
+                "name": "Широков А.В.",
+                "checked": false
+            },
+            {
+                "name": "Алтарный С.В",
+                "checked": false
+            },
+            {
+                "name": "Бирюкова Е.А.",
+                "checked": false
+            }
+        ],
+        "editors": [
+            {
+                "name": "Благая С.В.",
+                "checked": true
+            },
+            {
+                "name": "Громов И.А.",
+                "checked": false
+            },
+            {
+                "name": "Золотилова С.А.",
+                "checked": false
+            },
+            {
+                "name": "Кустов С.В.",
+                "checked": false
+            },
+            {
+                "name": "Саева О.О.",
+                "checked": false
+            },
+            {
+                "name": "Строгов Н.В.",
+                "checked": false
+            },
+            {
+                "name": "Бутковский И.Б.",
+                "checked": false
+            },
+            {
+                "name": "Барина Л.Д",
+                "checked": false
+            },
+            {
+                "name": "Жуков А.П.",
+                "checked": false
+            },
+            {
+                "name": "Цветкова В.В.",
+                "checked": false
+            },
+            {
+                "name": "Ушакова Д.И.",
+                "checked": false
+            },
+            {
+                "name": "Ельченко В.Г",
+                "checked": false
+            },
+            {
+                "name": "Небрасова И.И.",
+                "checked": false
+            },
+            {
+                "name": "Генеральская А.В.",
+                "checked": false
+            },
+            {
+                "name": "Широков С.В",
+                "checked": false
+            },
+            {
+                "name": "Щёткин Е.А.",
+                "checked": false
+            }
+        ],
+        "readers": [
+            {
+                "name": "Болконская С.В.",
+                "checked": false
+            },
+            {
+                "name": "Заренина И.А.",
+                "checked": false
+            },
+            {
+                "name": "Хубеева С.А.",
+                "checked": false
+            },
+            {
+                "name": "Февральский С.В.",
+                "checked": false
+            },
+            {
+                "name": "Вайнберг О.О.",
+                "checked": false
+            },
+            {
+                "name": "Акимова Н.В.",
+                "checked": false
+            },
+            {
+                "name": "Петров И.Б.",
+                "checked": false
+            },
+            {
+                "name": "Рубко. Л.Д",
+                "checked": false
+            },
+            {
+                "name": "Окружной А.П.",
+                "checked": false
+            },
+            {
+                "name": "Лебедев В.В.",
+                "checked": false
+            },
+            {
+                "name": "Дружко Д.И.",
+                "checked": false
+            },
+            {
+                "name": "Корнилов В.Г",
+                "checked": false
+            },
+            {
+                "name": "Чумазов И.И.",
+                "checked": false
+            },
+            {
+                "name": "Шпилькин А.В.",
+                "checked": false
+            },
+            {
+                "name": "Сурикова С.В",
+                "checked": true
+            },
+            {
+                "name": "Клоп Е.А.",
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name": "3.4. СОУ программ блока",
+        "files": [
+            "Название файла (тип файла)",
+            "Название файла (тип файла)"
+        ],
+        "leaders": [
+            {
+                "name": "Блохин С.В.",
+                "checked": false
+            },
+            {
+                "name": "Громова И.А.",
+                "checked": true
+            },
+            {
+                "name": "Аглая С.А.",
+                "checked": false
+            },
+            {
+                "name": "Комов С.В.",
+                "checked": false
+            },
+            {
+                "name": "Карбышев О.О.",
+                "checked": false
+            },
+            {
+                "name": "Кучков Н.В.",
+                "checked": false
+            },
+            {
+                "name": "Лазарева И.Б.",
+                "checked": false
+            },
+            {
+                "name": "Карая Л.Д",
+                "checked": false
+            },
+            {
+                "name": "Стариков П.П.",
+                "checked": false
+            },
+            {
+                "name": "Хрюпов В.В.",
+                "checked": false
+            },
+            {
+                "name": "Петроченков Д.И.",
+                "checked": false
+            },
+            {
+                "name": "Хлебников В.Г",
+                "checked": false
+            },
+            {
+                "name": "Чуваров И.И.",
+                "checked": false
+            },
+            {
+                "name": "Широков А.В.",
+                "checked": false
+            },
+            {
+                "name": "Алтарный С.В",
+                "checked": false
+            },
+            {
+                "name": "Бирюкова Е.А.",
+                "checked": false
+            }
+        ],
+        "editors": [
+            {
+                "name": "Благая С.В.",
+                "checked": true
+            },
+            {
+                "name": "Громов И.А.",
+                "checked": false
+            },
+            {
+                "name": "Золотилова С.А.",
+                "checked": false
+            },
+            {
+                "name": "Кустов С.В.",
+                "checked": false
+            },
+            {
+                "name": "Саева О.О.",
+                "checked": false
+            },
+            {
+                "name": "Строгов Н.В.",
+                "checked": false
+            },
+            {
+                "name": "Бутковский И.Б.",
+                "checked": false
+            },
+            {
+                "name": "Барина Л.Д",
+                "checked": false
+            },
+            {
+                "name": "Жуков А.П.",
+                "checked": false
+            },
+            {
+                "name": "Цветкова В.В.",
+                "checked": false
+            },
+            {
+                "name": "Ушакова Д.И.",
+                "checked": false
+            },
+            {
+                "name": "Ельченко В.Г",
+                "checked": false
+            },
+            {
+                "name": "Небрасова И.И.",
+                "checked": false
+            },
+            {
+                "name": "Генеральская А.В.",
+                "checked": false
+            },
+            {
+                "name": "Широков С.В",
+                "checked": false
+            },
+            {
+                "name": "Щёткин Е.А.",
+                "checked": false
+            }
+        ],
+        "readers": [
+            {
+                "name": "Болконская С.В.",
+                "checked": false
+            },
+            {
+                "name": "Заренина И.А.",
+                "checked": false
+            },
+            {
+                "name": "Хубеева С.А.",
+                "checked": false
+            },
+            {
+                "name": "Февральский С.В.",
+                "checked": false
+            },
+            {
+                "name": "Вайнберг О.О.",
+                "checked": false
+            },
+            {
+                "name": "Акимова Н.В.",
+                "checked": false
+            },
+            {
+                "name": "Петров И.Б.",
+                "checked": false
+            },
+            {
+                "name": "Рубко. Л.Д",
+                "checked": false
+            },
+            {
+                "name": "Окружной А.П.",
+                "checked": false
+            },
+            {
+                "name": "Лебедев В.В.",
+                "checked": false
+            },
+            {
+                "name": "Дружко Д.И.",
+                "checked": false
+            },
+            {
+                "name": "Корнилов В.Г",
+                "checked": false
+            },
+            {
+                "name": "Чумазов И.И.",
+                "checked": false
+            },
+            {
+                "name": "Шпилькин А.В.",
+                "checked": false
+            },
+            {
+                "name": "Сурикова С.В",
+                "checked": true
+            },
+            {
+                "name": "Клоп Е.А.",
+                "checked": false
+            }
+        ]
+    },
+    {
+        "name": "3.5. Общеобразовательная школа-пансион",
+        "files": [
+            "Название файла (тип файла)",
+            "Название файла (тип файла)"
+        ],
+        "leaders": [
+            {
+                "name": "Блохин С.В.",
+                "checked": false
+            },
+            {
+                "name": "Громова И.А.",
+                "checked": true
+            },
+            {
+                "name": "Аглая С.А.",
+                "checked": false
+            },
+            {
+                "name": "Комов С.В.",
+                "checked": false
+            },
+            {
+                "name": "Карбышев О.О.",
+                "checked": false
+            },
+            {
+                "name": "Кучков Н.В.",
+                "checked": false
+            },
+            {
+                "name": "Лазарева И.Б.",
+                "checked": false
+            },
+            {
+                "name": "Карая Л.Д",
+                "checked": false
+            },
+            {
+                "name": "Стариков П.П.",
+                "checked": false
+            },
+            {
+                "name": "Хрюпов В.В.",
+                "checked": false
+            },
+            {
+                "name": "Петроченков Д.И.",
+                "checked": false
+            },
+            {
+                "name": "Хлебников В.Г",
+                "checked": false
+            },
+            {
+                "name": "Чуваров И.И.",
+                "checked": false
+            },
+            {
+                "name": "Широков А.В.",
+                "checked": false
+            },
+            {
+                "name": "Алтарный С.В",
+                "checked": false
+            },
+            {
+                "name": "Бирюкова Е.А.",
+                "checked": false
+            }
+        ],
+        "editors": [
+            {
+                "name": "Благая С.В.",
+                "checked": true
+            },
+            {
+                "name": "Громов И.А.",
+                "checked": false
+            },
+            {
+                "name": "Золотилова С.А.",
+                "checked": false
+            },
+            {
+                "name": "Кустов С.В.",
+                "checked": false
+            },
+            {
+                "name": "Саева О.О.",
+                "checked": false
+            },
+            {
+                "name": "Строгов Н.В.",
+                "checked": false
+            },
+            {
+                "name": "Бутковский И.Б.",
+                "checked": false
+            },
+            {
+                "name": "Барина Л.Д",
+                "checked": false
+            },
+            {
+                "name": "Жуков А.П.",
+                "checked": false
+            },
+            {
+                "name": "Цветкова В.В.",
+                "checked": false
+            },
+            {
+                "name": "Ушакова Д.И.",
+                "checked": false
+            },
+            {
+                "name": "Ельченко В.Г",
+                "checked": false
+            },
+            {
+                "name": "Небрасова И.И.",
+                "checked": false
+            },
+            {
+                "name": "Генеральская А.В.",
+                "checked": false
+            },
+            {
+                "name": "Широков С.В",
+                "checked": false
+            },
+            {
+                "name": "Щёткин Е.А.",
+                "checked": false
+            }
+        ],
+        "readers": [
+            {
+                "name": "Болконская С.В.",
+                "checked": false
+            },
+            {
+                "name": "Заренина И.А.",
+                "checked": false
+            },
+            {
+                "name": "Хубеева С.А.",
+                "checked": false
+            },
+            {
+                "name": "Февральский С.В.",
+                "checked": false
+            },
+            {
+                "name": "Вайнберг О.О.",
+                "checked": false
+            },
+            {
+                "name": "Акимова Н.В.",
+                "checked": false
+            },
+            {
+                "name": "Петров И.Б.",
+                "checked": false
+            },
+            {
+                "name": "Рубко. Л.Д",
+                "checked": false
+            },
+            {
+                "name": "Окружной А.П.",
+                "checked": false
+            },
+            {
+                "name": "Лебедев В.В.",
+                "checked": false
+            },
+            {
+                "name": "Дружко Д.И.",
+                "checked": false
+            },
+            {
+                "name": "Корнилов В.Г",
+                "checked": false
+            },
+            {
+                "name": "Чумазов И.И.",
+                "checked": false
+            },
+            {
+                "name": "Шпилькин А.В.",
+                "checked": false
+            },
+            {
+                "name": "Сурикова С.В",
+                "checked": true
+            },
+            {
+                "name": "Клоп Е.А.",
+                "checked": false
+            }
+        ]
+    }
+]

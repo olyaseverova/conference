@@ -1,0 +1,405 @@
+.creation {
+    .creation-links {
+        @extend %flex-space;
+        width: 323px;
+        margin: 0 auto 30px auto;
+        padding: 0 100px 0 0;
+
+        @media (min-width: $desktop-width) {
+            width: 282px;
+            margin: 0 0 30px 0;
+            padding: 0;
+        }
+
+        .creation-links__router {
+            &:hover,
+            &:focus {
+                color: $bg-blue;
+                text-decoration: underline;
+            }
+
+            &:active {
+                color: $bg-violet;
+            }
+        }
+    }
+
+    .big-headline {
+        width: 323px;
+        margin: 0 auto 19px auto;
+
+        @media (min-width: $desktop-width) {
+            width: 500px;
+            margin: 0 0 42px 0;
+        }
+    }
+}
+
+.creation-form {
+    width: 355px;
+
+    @media (min-width: $desktop-width) {
+        width: 1152px;
+    }
+
+    .creation-form__input {
+        width: 100%;
+        height: 63px;
+        margin: 0 0 15px 0;
+        padding: 22px 16px;
+
+        border: none;
+        font-size: 18px;
+        line-height: 20px;
+        border-radius: 15px;
+        transition: 0.3s ease;
+        box-shadow: 10px 10px 15px $rgba-dark-grey;
+
+        @media (min-width: $desktop-width) {
+            height: 42px;
+            margin: 0 0 12px 0;
+            padding: 12px 31px;
+        }
+
+        &::placeholder {
+            opacity: 1;
+            color: $bg-grey;
+            font-size: 16px;
+        }
+
+        &:hover,
+        &:focus {
+            box-shadow: 10px 10px 15px $rgba-grey-122;
+        }
+
+        &:focus::placeholder {
+            color: $bg-blue;
+        }
+    }
+
+    .textarea-styles {
+        position: relative;
+        width: 100%;
+
+        .textarea-menu {
+            position: absolute;
+            width: 18px;
+            height: 14px;
+            padding: 0;
+            z-index: 1;
+
+            top: 14px;
+            left: 317px;
+
+            border: none;
+            background-color: $color-white;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-image: url("../img/textarea-menu.png");
+
+            @media (min-width: $desktop-width) {
+                display: none;
+            }
+
+            &:hover,
+            &:focus {
+                opacity: 0.5;
+            }
+
+            &:active {
+                opacity: 0.3;
+            }
+        }
+
+        .textarea-menu-act {
+            background-size: 14px 14px;
+            background-image: url("../img/cross.png");
+        }
+    }
+
+    .creation-form__textarea {
+        width: 100%;
+        height: 268px;
+        padding: 53px 17px;
+
+        border: none;
+        font-size: 18px;
+        line-height: 20px;
+        border-radius: 15px;
+        transition: 0.3s ease;
+        font-family: "Montserrat", sans-serif;
+        box-shadow: 10px 10px 15px $rgba-dark-grey;
+
+        @media (min-width: $desktop-width) {
+            padding: 12px 216px 12px 30px;
+            height: 244px;
+        }
+
+        &::placeholder {
+            opacity: 1;
+            color: $bg-grey;
+            font-size: 16px;
+        }
+
+        &:hover,
+        &:focus {
+            box-shadow: 10px 10px 15px $rgba-grey-122;
+        }
+
+        &:focus::placeholder {
+            color: $bg-blue;
+        }
+    }
+
+    .styles-list {
+        position: absolute;
+        width: 355px;
+        height: 268px;
+
+        margin: 0;
+        padding: 37px 0 10px 0;
+
+        top: 0;
+        left: 0;
+
+        border-radius: 15px;
+        background-color: $color-white;
+        box-shadow: 10px 10px 15px $rgba-dark-grey;
+
+        @media (min-width: $desktop-width) {
+            display: flex;
+            justify-content: space-between;
+            width: 190px;
+            height: 18px;
+            padding: 0;
+            top: 18px;
+            left: 938px;
+            box-shadow: none;
+        }
+
+        .styles-list__item {
+            .style-button {
+                position: relative;
+                width: 100%;
+                height: 36px;
+                padding: 0;
+
+                border: none;
+                background-color: inherit;
+                background-repeat: no-repeat;
+                background-position: 42px 10px;
+                background-image: url("../img/pin.png");
+
+                @media (min-width: $desktop-width) {
+                    width: 18px;
+                    height: 18px;
+                    top: -8px;
+                    background-position: 50% 50%;
+                }
+
+                &::after {
+                    position: absolute;
+                    content: "Привязать ссылку";
+                    width: 220px;
+
+                    top: 9px;
+                    left: 92px;
+
+                    color: $bg-grey;
+                    font-size: 14px;
+                    line-height: 17px;
+                    text-align: left;
+
+                    @media (min-width: $desktop-width) {
+                        display: none;
+                        width: 248px;
+                        height: 47px;
+                        padding-top: 5px;
+
+                        top: -45px;
+                        left: -204.5px;
+
+                        text-align: center;
+                        background-image: url("../img/comment.png");
+                    }
+                }
+
+                &:hover,
+                &:focus {
+                    border-top: 2px solid $rgba-blue;
+                    border-bottom: 2px solid $rgba-blue;
+                    background-image: url("../img/pin-hvr.png");
+
+                    @media (min-width: $desktop-width) {
+                        border: none;
+                    }
+
+                    &::after {
+                        display: block;
+                    }
+                }
+                &:active {
+                    background-color: $rgba-blue;
+                    background-image: url("../img/pin-act.png");
+
+                    @media (min-width: $desktop-width) {
+                        background-color: $color-white;
+                    }
+                }
+            }
+
+            &:nth-of-type(2) .style-button {
+                background-size: 10px 14px;
+                background-image: url("../img/bold.png");
+
+                &::after {
+                    content: "Жирное начертание текста";
+                }
+
+                &:hover,
+                &:focus {
+                    background-image: url("../img/bold-hvr.png");
+                }
+                &:active {
+                    background-image: url("../img/bold-act.png");
+                }
+            }
+
+            &:nth-of-type(3) .style-button {
+                background-size: 10px 14px;
+                background-image: url("../img/italic.png");
+
+                &::after {
+                    content: "Курсивное начертание текста";
+                }
+
+                &:hover,
+                &:focus {
+                    background-image: url("../img/italic-hvr.png");
+                }
+                &:active {
+                    background-image: url("../img/italic-act.png");
+                }
+            }
+
+            &:nth-of-type(4) .style-button {
+                background-size: 14px 17px;
+                background-image: url("../img/underline.png");
+
+                &::after {
+                    content: "Нижнее подчеркивание";
+                }
+                &:hover,
+                &:focus {
+                    background-image: url("../img/underline-hvr.png");
+                }
+                &:active {
+                    background-image: url("../img/underline-act.png");
+                }
+            }
+
+            &:nth-of-type(5) .style-button {
+                background-size: 19px 20px;
+                background-image: url("../img/fill.png");
+
+                &::after {
+                    content: "Цвет текста";
+                }
+                &:hover,
+                &:focus {
+                    background-image: url("../img/fill-hvr.png");
+                }
+                &:active {
+                    background-image: url("../img/fill-act.png");
+                }
+            }
+
+            &:nth-of-type(6) .style-button {
+                background-size: 16px 18px;
+                background-image: url("../img/file.png");
+
+                &::after {
+                    content: "Загрузить файл";
+                }
+                &:hover,
+                &:focus {
+                    background-image: url("../img/file-hvr.png");
+                }
+                &:active {
+                    background-image: url("../img/file-act.png");
+                }
+            }
+        }
+    }
+
+    .images-list {
+        display: flex;
+        height: 138px;
+        margin: 15px 0 25px 0;
+        padding: 0;
+        overflow: scroll;
+
+        @media (min-width: $desktop-width) {
+            height: 150px;
+            overflow: inherit;
+            flex-wrap: wrap;
+            margin: 0 0 25px 0;
+        }
+
+        .images-list__item {
+            position: relative;
+            width: 138px;
+            height: 138px;
+            margin: 0 12px 0 0;
+
+            border-radius: 15px;
+            background-color: $color-white;
+            box-shadow: 10px 10px 15px $rgba-dark-grey;
+
+            @media (min-width: $desktop-width) {
+                margin: 14px 12px 0 0;
+            }
+
+            .images-list__wrapper {
+                width: 138px;
+                height: 138px;
+                padding: 54px 44px;
+                text-align: center;
+            }
+
+            .images-list__type {
+                font-size: 24px;
+                line-height: 29px;
+            }
+
+            .images-list__button {
+                position: absolute;
+                width: 20px;
+                height: 20px;
+
+                top: 6px;
+                left: 111px;
+
+                background-image: url("../img/round-cross.png");
+
+                &:hover,
+                &:focus {
+                    background-image: url("../img/round-cross-hvr.png");
+                }
+
+                &:active {
+                    background-image: url("../img/round-cross-act.png");
+                }
+            }
+        }
+    }
+
+    .creation-form__button {
+        width: 355px;
+        height: 54px;
+
+        @media (min-width: $desktop-width) {
+            width: 285px;
+        }
+    }
+}

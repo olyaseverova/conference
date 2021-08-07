@@ -1,0 +1,108 @@
+.editor-materials {
+    .editor-materials__button {
+        width: 355px;
+        height: 64px;
+        margin: 14px auto 0 auto;
+
+        @media (min-width: $desktop-width) {
+            width: 285px;
+            height: 54px;
+            margin: 19px 0 0 0;
+        }
+    }
+
+    .editors-list {
+        margin: 0;
+        padding: 0;
+
+        .editors-list__item {
+            @extend %wrap-space;
+            margin: 0 0 14px 0;
+            padding: 26px 0 0 0;
+            border-radius: 15px;
+            background-color: $color-white;
+            box-shadow: 10px 10px 15px $rgba-dark-grey;
+
+            @media (min-width: $desktop-width) {
+                margin: 0 0 12px 0;
+                padding: 12px 31px 24px 31px;
+            }
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+
+            .editors-list__material {
+                width: 295px;
+                margin: 0 auto 18px auto;
+
+                @media (min-width: $desktop-width) {
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    .files-list {
+        width: 295px;
+        margin: 0 auto 29px auto;
+
+        @media (min-width: $desktop-width) {
+            width: 245px;
+            margin: 10px 900px 0 0;
+        }
+    }
+}
+
+.edit-buttons {
+    @extend %flex-space;
+    order: 1;
+    width: 100%;
+    height: 56px;
+    padding: 18px 74px;
+
+    border-radius: 0px 0px 15px 15px;
+    background-color: $light-blue;
+
+    @media (min-width: $desktop-width) {
+        width: 71px;
+        height: 20px;
+        padding: 0;
+        order: 0;
+
+        border-radius: 0;
+        background-color: inherit;
+    }
+
+    .edit-buttons__button {
+        padding: 0;
+        border: none;
+        transition: 0.3s ease;
+        background-color: inherit;
+
+        &:hover {
+            opacity: 0.6;
+        }
+        &:active,
+        &:focus {
+            opacity: 0.3;
+        }
+    }
+
+    .edit-link {
+        width: 18px;
+        height: 20px;
+        background-image: url("../img/pencil.png");
+    }
+}
+
+.close-button {
+    width: 14px;
+    height: 14px;
+    margin: 3px 0 0 0;
+    padding: 0;
+    border: none;
+    transition: 0.3s ease;
+    background-color: inherit;
+    background-image: url("../img/cross.png");
+}

@@ -1,0 +1,290 @@
+.authorization {
+    .big-headline {
+        width: 168px;
+        text-align: center;
+        margin: 0 auto 51px auto;
+
+        @media (min-width: $desktop-width) {
+            width: 308px;
+            text-align: left;
+            margin: 0 0 95px 0;
+        }
+    }
+
+    .sign-up {
+        width: 355px;
+        margin: 0 auto;
+
+        @media (min-width: $desktop-width) {
+            width: 680px;
+        }
+
+        .sign-up__group {
+            position: relative;
+            display: flex;
+            width: 320px;
+            margin: 0 auto 20px auto;
+
+            @media (min-width: $desktop-width) {
+                width: 100%;
+                margin: 0 0 12px 0;
+            }
+
+            &:last-of-type {
+                margin: 0 auto 25px auto;
+
+                @media (min-width: $desktop-width) {
+                    margin: 0 0 59px 0;
+                    justify-content: space-between;
+                }
+            }
+        }
+
+        .sign-up__input {
+            display: block;
+            width: 320px;
+            height: 45px;
+            padding: 13px 14px;
+
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid $bg-grey-ce;
+
+            @media (min-width: $desktop-width) {
+                width: 404px;
+                height: 53px;
+                padding: 13px 27px;
+                font-size: 22px;
+            }
+
+            &::placeholder {
+                opacity: 1;
+                color: $bg-grey-BA;
+                font-size: 16px;
+
+                @media (min-width: $desktop-width) {
+                    font-size: 22px;
+                }
+            }
+
+            &:hover {
+                border: 2px solid $bg-light-blue;
+                &::placeholder {
+                    color: $bg-grey-ce;
+                }
+            }
+            &:active {
+                border: 1px solid $bg-blue;
+                &::placeholder {
+                    color: $bg-blue;
+                }
+            }
+            &:focus {
+                border: 1px solid $bg-blue;
+                box-shadow: 4px 4px 6px $rgba-light-grey;
+                &::placeholder {
+                    color: $bg-blue;
+                }
+            }
+        }
+
+        .sign-up__input[type="password"] {
+            font-size: 16px;
+
+            @media (min-width: $desktop-width) {
+                font-size: 22px;
+            }
+
+            &::placeholder {
+                opacity: 1;
+                font-size: 20px;
+                color: $bg-grey;
+
+                @media (min-width: $desktop-width) {
+                    font-size: 28px;
+                }
+            }
+        }
+
+        .incorrectLogin {
+            position: relative;
+
+            .sign-up__input {
+                border: 1px solid $bg-orange;
+
+                &::placeholder {
+                    color: $bg-orange;
+                }
+            }
+
+            &::after {
+                position: absolute;
+                content: "Введите логин";
+                width: 110px;
+
+                top: 50%;
+                left: 95%;
+                transform: translate(-100%, -50%);
+
+                font-size: 16px;
+                color: $bg-orange;
+                line-height: 20px;
+
+                @media (min-width: $desktop-width) {
+                    width: 135px;
+                    left: 85%;
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+            }
+        }
+
+        .incorrectPassword {
+            .sign-up__text {
+                display: block;
+                color: $bg-orange;
+            }
+        }
+
+        .sign-up__input:invalid {
+            border: 1px solid red;
+        }
+
+        .sign-up__eye {
+            position: absolute;
+            width: 18px;
+            height: 18px;
+
+            top: 14px;
+            left: 287px;
+
+            border: none;
+            background-color: inherit;
+            background-repeat: no-repeat;
+            background-size: 18px 18px;
+            background-image: url("../img/closed-eye.png");
+
+            @media (min-width: $desktop-width) {
+                width: 24px;
+                height: 22px;
+                padding: 0;
+                top: 17px;
+                left: 356px;
+
+                background-size: 24px 24px;
+            }
+        }
+
+        .sign-up__eye-hover {
+            &:hover,
+            &:focus {
+                background-image: url("../img/closed-blue-eye.png");
+            }
+        }
+
+        .sign-up__eye-open {
+            background-position: 0 2px;
+            background-size: 18px 15px;
+            background-image: url("../img/opened-eye.png");
+
+            @media (min-width: $desktop-width) {
+                background-position: 0 0;
+                background-size: 24px 20px;
+            }
+
+            &:hover,
+            &:focus {
+                background-image: url("../img/opened-blue-eye.png");
+            }
+        }
+
+        .sign-up__text {
+            position: absolute;
+            width: 150px;
+            top: 50px;
+            left: 180px;
+
+            @media (min-width: $desktop-width) {
+                position: static;
+                display: block;
+                width: 236px;
+                margin: 7px 0 0 0;
+
+                top: 0;
+                left: 0;
+
+                font-size: 16px;
+                line-height: 20px;
+            }
+        }
+
+        .sign-up__label {
+            @extend %flex-space;
+            width: 160px;
+            margin: 0 0 50px 19px;
+
+            @media (min-width: $desktop-width) {
+                width: 230px;
+                margin: 0 0 84px 0;
+            }
+
+            p {
+                margin: 0;
+                font-size: 16px;
+                line-height: 20px;
+
+                @media (min-width: $desktop-width) {
+                    font-size: 22px;
+                    line-height: 27px;
+                }
+            }
+
+            &:hover {
+                .sign-up__box {
+                    border: 2px solid $bg-blue;
+                }
+                p {
+                    color: $bg-blue;
+                }
+            }
+        }
+
+        .sign-up__box {
+            width: 20px;
+            height: 19px;
+            border-radius: 4px;
+            border: 2px solid $bg-grey-ce;
+
+            @media (min-width: $desktop-width) {
+                width: 24px;
+                height: 23px;
+                margin: 2px 0 0 0;
+            }
+        }
+
+        .sign-up__checkbox:checked + .sign-up__box {
+            background-color: $rgba-blue;
+            background-size: 14px 10px;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-image: url("../img/tick.png");
+
+            @media (min-width: $desktop-width) {
+                background-size: 18px 13px;
+            }
+        }
+
+        .sign-up__checkbox:focus + .sign-up__box {
+            border: 2px solid $bg-blue;
+        }
+
+        .sign-up__button {
+            width: 100%;
+            height: 54px;
+
+            @media (min-width: $desktop-width) {
+                width: 340px;
+            }
+        }
+    }
+}

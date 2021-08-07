@@ -1,0 +1,405 @@
+.programs {
+    position: relative;
+    width: 355px;
+    margin: 0 auto;
+
+    @media (min-width: $desktop-width) {
+        display: flex;
+        justify-content: space-between;
+        width: 1354px;
+        height: 2508px;
+        margin: 0 auto 96px auto;
+        
+        border: 2px solid $bg-grey-ce;
+        background-color: $color-white;
+    }
+}
+
+.programs-enumeration {
+    position: relative;
+
+    @media (min-width: $desktop-width) {
+        width: 442px;
+        padding: 29px 0 85px 0;
+        border-right: 2px solid $bg-grey-ce;
+    }
+
+    .main-headline {
+        width: 328px;
+        margin: 0 auto 15px auto;
+
+        @media (min-width: $desktop-width) {
+            width: 410px;
+            margin: 0 auto 26px auto;
+        }
+    }
+
+    .programs-button {
+        display: none;
+    }
+
+    .programs-list {
+        padding: 0;
+
+        .programs-list__item {
+            margin: 0 0 5px 0;
+            padding: 16px 0 32px 0;
+            border-radius: 15px;
+            background-color: $color-white;
+
+            @media (min-width: $desktop-width) {
+                padding: 0;
+                margin: 0 0 35px 0;
+                border-radius: 0;
+                background-color: inherit;
+            }
+        }
+
+        .checks-list {
+            padding: 0;
+        }
+
+        .programs-list__headline {
+            margin: 0 0 25px 30px;
+            color: $bg-blue;
+            font-size: 14px;
+            line-height: 17px;
+
+            @media (min-width: $desktop-width) {
+                margin: 0 0 10px 15px;
+                font-size: 16px;
+                line-height: 20px;
+            }
+        }
+
+        .programs-list__item:first-of-type .programs-list__headline {
+            margin-top: 0;
+        }
+
+        .checkedProgram {
+            background: $rgba-grey;
+
+            .materials {
+                @media (min-width: $desktop-width) {
+                    display: block;
+                }
+            }
+        }
+
+        .programs-check {
+            display: block;
+            padding: 12px 30px 8px 30px;
+
+            @media (min-width: $desktop-width) {
+                padding: 13px 17px;
+            }
+
+            &:hover {
+                padding-left: 26px;
+                border-left: 4px solid $bg-blue;
+
+                @media (min-width: $desktop-width) {
+                    padding-left: 13px;
+                }
+            }
+
+            .programs-check__headlines {
+                display: flex;
+
+                .programs-check__headline {
+                    margin: 0;
+                    color: $bg-blue;
+                    font-size: 14px;
+                    font-weight: 500;
+
+                    @media (min-width: $desktop-width) {
+                        color: $bg-grey;
+                        font-size: 16px;
+                        line-height: 20px;
+                    }
+
+                    &:first-of-type {
+                        margin-right: 5px;
+                    }
+                }
+            }
+
+            .subgroupHeadline .programs-check__headline:first-of-type {
+                padding-left: 24px;
+            }
+
+            .programs-check__leader {
+                margin: 5px 0 0 0;
+
+                @media (min-width: $desktop-width) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .materials {
+        position: absolute;
+        width: 355px;
+        top: 53px;
+        left: 0;
+
+        @media (min-width: $desktop-width) {
+            width: 596px;
+            height: 100%;
+            padding: 29px 20px 29px 24px;
+            top: 0;
+            left: 442px;
+        }
+
+        .main-headline {
+            margin: 0 0 15px 0;
+        }
+
+        .materials-condition {
+            width: 100%;
+            height: 82px;
+            padding: 19px 30px;
+            margin-bottom: 10px;
+
+            font-size: 16px;
+            border-radius: 15px;
+            background-color: $color-white;
+
+            @media (min-width: $desktop-width) {
+                display: flex;
+                justify-content: space-between;
+                height: 62px;
+                margin-bottom: 15px;
+                padding: 20px 15px 20px 20px;
+                box-shadow: 10px 10px 15px $rgba-dark-grey;
+            }
+
+            .materials-condition__status {
+                margin: 0;
+                line-height: 22px;
+            }
+
+            &:first-of-type .materials-condition__status:last-of-type {
+                color: $bg-green;
+            }
+
+            &:last-of-type {
+                display: none;
+
+                @media (min-width: $desktop-width) {
+                    display: flex;
+                    margin-bottom: 33px;
+                }
+            }
+        }
+
+        .paragraphs-list {
+            padding: 14px 9px 14px 18px;
+            border-radius: 15px;
+            background-color: $color-white;
+
+            @media (min-width: $desktop-width) {
+                padding: 0;
+                background-color: inherit;
+            }
+
+            .paragraphs-list__item {
+                margin: 0 0 10px 0;
+
+                @media (min-width: $desktop-width) {
+                    margin: 0 0 20px 0;
+                }
+            }
+        }
+
+        .paragraphs_color {
+            background-color: inherit;
+        }
+    }
+}
+
+.programs-enumeration-act {
+    width: 0;
+
+    @media (min-width: $desktop-width) {
+        width: 99px;
+        background-repeat: no-repeat;
+        background-position: 27px 29px;
+        background-image: url("../img/enumeration-back.png");
+    }
+
+    .programs-enumeration__headline {
+        display: none;
+    }
+
+    .programs-list {
+        .programs-list__item {
+            background-color: inherit;
+        }
+        .programs-list__headline {
+            display: none;
+        }
+        .checkedProgram {
+            background-color: inherit;
+        }
+        .programs-check {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+            clip: rect(0 0 0 0);
+            white-space: nowrap;
+            clip-path: inset(50%);
+        }
+        .materials {
+            @media (min-width: $desktop-width) {
+                width: 939px;
+                left: 99px;
+            }
+        }
+    }
+}
+
+.programs-enumeration-act-mob {
+    width: 0;
+
+    @media (min-width: $desktop-width) {
+        width: 442px;
+    }
+
+    .programs-enumeration__headline {
+        display: none;
+
+        @media (min-width: $desktop-width) {
+            display: block;
+        }
+    }
+
+    .programs-list {
+        .programs-list__item {
+            background-color: inherit;
+        }
+        .programs-list__headline {
+            display: none;
+
+            @media (min-width: $desktop-width) {
+                display: block;
+            }
+        }
+        .programs-check {
+            position: absolute;
+            width: 1px;
+            overflow: hidden;
+            opacity: 0;
+
+            @media (min-width: $desktop-width) {
+                position: static;
+                display: block;
+                opacity: 1;
+                width: 100%;
+            }
+        }
+    }
+
+    .checkedProgram {
+        .materials {
+            display: block;
+        }
+    }
+
+    .programs-buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 332px;
+
+        @media (min-width: $desktop-width) {
+            display: none;
+        }
+    }
+
+    .programs-button {
+        display: block;
+        width: 153px;
+        height: 40px;
+
+        border: none;
+        font-weight: bold;
+        color: $bg-grey-ce;
+        border-radius: 15px;
+        transition: 0.3s ease;
+        background-color: $color-white;
+        box-shadow: 2px 4px 4px $rgba-light-grey;
+
+        &:hover,
+        &:focus {
+            color: $color-white;
+            background-color: $bg-grey-ce;
+        }
+
+        &:active {
+            padding: 0;
+            background-color: $bg-blue;
+        }
+    }
+
+    .programs-button-act {
+        color: $color-white;
+        background-color: $bg-grey-ce;
+
+        &:active {
+            background-color: $bg-grey-ce;
+        }
+    }
+}
+
+.programs-delimiter {
+    display: none;
+
+    @media (min-width: $desktop-width) {
+        display: block;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 71px;
+        left: 427px;
+
+        border: none;
+        border-radius: 50%;
+        transition: 0.3s ease;
+        background-color: $color-white;
+        box-shadow: 0 0 4px $rgba-light-blue;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-image: url("../img/arrow.png");
+    }
+
+    &:hover,
+    &:focus {
+        background-color: $bg-light-blue;
+    }
+
+    &:active {
+        background-color: $bg-blue;
+        background-image: url("../img/arrow-act.png");
+    }
+}
+
+.programs-delimiter-act {
+    left: 84px;
+    transform: rotate(180deg);
+}
+
+.programs-applications {
+    position: absolute;
+    top: 53px;
+
+    @media (min-width: $desktop-width) {
+        display: block;
+        position: static;
+        top: 0;
+        width: 316px;
+        padding: 29px 15px;
+        border-left: 2px solid $bg-grey-ce;
+    }
+}

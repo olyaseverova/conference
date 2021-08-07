@@ -1,0 +1,407 @@
+.conference {
+    width: 375px;
+    margin: 0 auto;
+
+    &__big-headline {
+        width: 355px;
+        margin: 0 auto 9px auto;
+
+        @media (min-width: $desktop-width) {
+            width: auto;
+            margin: 0 0 22px 0;
+        }
+    }
+
+    @media (min-width: $desktop-width) {
+        width: 1440px;
+        padding: 0 146px 81px 369px;
+    }
+}
+
+.calendar {
+    @extend %flex-wrap;
+    width: 355px;
+    margin: 0 auto 16px auto;
+    
+    @media (min-width: $desktop-width) {
+        justify-content: space-between;
+        width: 514px;
+        margin: 0 0 37px 0;
+        padding: 24px 26px 24px 39px;
+        
+        border-radius: 15px;
+        background-color: $color-white;
+        box-shadow: 10px 10px 10px $rgba-grey;
+    }
+
+    .calendar__button {
+        width: 20px;
+        height: 20px;
+        margin: 0 0 0 23px;
+        padding: 0;
+
+        border: none;
+        transition: 0.3s ease;
+        background-color: inherit;
+
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+        background-image: url("../img/calendar.png");
+
+        @media (min-width: $desktop-width) {
+            width: 28px;
+            height: 27px;
+            margin: 0;
+            background-size: 28px 27px;
+        }
+
+        &:hover {
+            opacity: 0.6;
+        }
+        &:active {
+            opacity: 0.4;
+        }
+        &:focus {
+            opacity: 0.4;
+        }
+    }
+
+    .calendar-list {
+        width: 355px;
+        flex-wrap: wrap;
+        margin: 10px 0 0 0;
+        padding: 5px 0 5px 3px;
+        border-radius: 15px;
+        background-color: $color-white;
+        box-shadow: 10px 10px 10px $rgba-grey;
+
+        @media (min-width: $desktop-width) {
+            width: 514px;
+            padding: 0;
+            margin: 30px 0 0 0;
+            box-shadow: none;
+        }
+
+        .calendar-list__item {
+            width: 50px;
+            height: 50px;
+
+            @media (min-width: $desktop-width) {
+                width: 64px;
+                height: 64px;
+            }
+
+            .calendar-list-button {
+                width: 100%;
+                height: 100%;
+                padding: 0;
+
+                border: none;
+                color: inherit;
+                font-size: 16px;
+                border-radius: 50%;
+                transition: 0.3s ease;
+                background-color: inherit;
+
+                @media (min-width: $desktop-width) {
+                    font-size: 20px;
+                }
+
+                &:hover {
+                    background-color: $rgba-grey;
+                }
+
+                &:focus {
+                    background-color: $rgba-grey;
+                }
+            }
+
+            .selected_day {
+                background-color: $rgba-light-grey;
+            }
+
+            &:first-of-type {
+                margin-left: 50px;
+
+                @media (min-width: $desktop-width) {
+                    margin-left: 64px;
+                }
+            }
+        }
+    }
+}
+
+.captions-list {
+    display: none;
+
+    @media (min-width: $desktop-width) {
+        display: flex;
+        justify-content: space-between;
+        width: 925px;
+        height: 77px;
+        margin: 0 0 33px 0;
+        padding: 0;
+
+        .captions-list__item {
+            border-radius: 15px;
+            background-color: $rgba-light-blue;
+
+            &:first-of-type {
+                width: 584px;
+                padding: 24px 75px;
+            }
+
+            &:last-of-type {
+                width: 322px;
+                padding: 24px 43px;
+            }
+        }
+    }
+}
+
+.plans-list {
+    width: 355px;
+    margin: 0 auto;
+    padding: 0;
+
+    @media (min-width: $desktop-width) {
+        width: 925px;
+        margin: 0;
+    }
+
+    .plans-list__item {
+        position: relative;
+        display: block;
+        margin-bottom: 9px;
+        padding: 19px 0 0 0;
+
+        border-radius: 15px;
+        background-color: $color-white;
+        box-shadow: 10px 10px 15px $rgba-dark-grey;
+
+        @media (min-width: $desktop-width) {
+            padding: 0;
+            margin-bottom: 45px;
+            border-radius: 0;
+            box-shadow: none;
+            background-color: inherit;
+        }
+
+        &::after {
+            display: none;
+
+            @media (min-width: $desktop-width) {
+                display: block;
+                position: absolute;
+                content: "";
+                top: 42px;
+                left: 14.5px;
+
+                width: 4px;
+                height: 90%;
+
+                border-radius: 10px;
+                background-color: $bg-orange;
+            }
+        }
+
+        &:nth-child(n + 6)::after {
+            display: none;
+        }
+
+        &:hover {
+            .plans-check__program {
+                color: $bg-blue;
+                text-decoration: underline;
+            }
+
+            .plans-check__box::before {
+                background-color: $bg-blue;
+            }
+        }
+
+        &:focus {
+            border: 2px solid $bg-light-blue;
+
+            @media (min-width: $desktop-width) {
+                border: none;
+            }
+        }
+    }
+
+    .checkedPlan {
+        border: 2px solid $bg-light-blue;
+
+        @media (min-width: $desktop-width) {
+            border: none;
+        }
+
+        &::after {
+            background-color: $bg-blue;
+        }
+
+        .plans-check__program {
+            color: $bg-orange;
+
+            @media (min-width: $desktop-width) {
+                color: $bg-blue;
+            }
+        }
+
+        .subgroups-list {
+            display: block;
+        }
+    }
+
+    .focusPLan {
+        border: 2px solid $bg-orange;
+
+        @media (min-width: $desktop-width) {
+            border: none;
+
+            .plans-check__program {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .plans-check {
+        position: relative;
+        @extend %flex-wrap-space;
+
+        @media (min-width: $desktop-width) {
+            flex-wrap: nowrap;
+        }
+
+        h3 {
+            margin: 0 auto;
+            font-size: 14px;
+            line-height: 17px;
+
+            @media (min-width: $desktop-width) {
+                margin: 0;
+                font-size: 18px;
+                line-height: 22px;
+            }
+        }
+
+        .plans-check__program {
+            width: 295px;
+
+            @media (min-width: $desktop-width) {
+                width: 603px;
+                padding: 3px 0 0 41px;
+            }
+        }
+
+        .plans-check__leader {
+            width: 295px;
+            margin: 5px auto 19px auto;
+            font-weight: 400;
+
+            @media (min-width: $desktop-width) {
+                width: 322px;
+                margin: 0;
+                font-weight: 700;
+                padding: 3px 110px 0 43px;
+            }
+        }
+    }
+
+    .plans-check__box {
+        display: none;
+
+        @media (min-width: $desktop-width) {
+            display: block;
+            position: relative;
+            width: 34px;
+            height: 34px;
+
+            border-radius: 50%;
+            border: 4px solid $bg-orange;
+
+            &::before {
+                position: absolute;
+                content: "";
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+                width: 18px;
+                height: 18px;
+
+                border-radius: 50%;
+                background-color: $bg-grey-ce;
+            }
+        }
+    }
+
+    .plans-check__input:checked + .plans-check__box {
+        border-color: $bg-blue;
+
+        &::before {
+            background-color: $bg-blue;
+        }
+    }
+    .plans-check__input:focus + .plans-check__box {
+        border-color: $bg-blue;
+
+        &::before {
+            background-color: $bg-light-blue;
+        }
+    }
+
+    .subgroups-list {
+        margin: 0;
+        padding: 0;
+
+        @media (min-width: $desktop-width) {
+            margin: 0 0 0 75px;
+        }
+
+        .subgroups-list__item {
+            line-height: 17px;
+            padding: 10px 13px 10px 30px;
+            border-top: 1px solid $bg-light-blue;
+
+            @media (min-width: $desktop-width) {
+                display: flex;
+                margin: 15px 0 0 0;
+                padding: 0;
+                line-height: 22px;
+                border: none;
+            }
+
+            &:last-of-type {
+                padding-bottom: 22px;
+
+                @media (min-width: $desktop-width) {
+                    margin: 15px 0 40px 0;
+                }
+            }
+
+            p {
+                margin: 0;
+            }
+
+            .subgroups-list__program {
+                font-weight: 700;
+                padding: 0;
+
+                @media (min-width: $desktop-width) {
+                    width: 530px;
+                    font-weight: 400;
+                }
+            }
+
+            .subgroups-list__leader {
+                margin: 5px 0 0 0;
+
+                @media (min-width: $desktop-width) {
+                    width: 322px;
+                    padding: 3px 110px 0 50px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+$color-white: #ffffff;
+$color-black: #000000;
+$light-blue: #EEFAFF;
+$bg-blue: #15507A;
+$bg-light-blue: #8bbcdf;
+$bg-orange: #FC8517;
+$bg-green: #109405;
+$bg-light-green: #91DA8B;
+$bg-grey: #565656;
+$bg-grey-BA: #BABABA;
+$bg-violet: #8D23B1;
+$bg-grey-ce: #9CBFCE;
+
+$rgba-grey: rgba(156, 191, 206, 0.2);
+$rgba-grey-86: rgba(86, 86, 86, 0.5);
+$rgba-light-grey: rgba(156, 191, 206, 0.5);
+$rgba-dark-grey: rgba(156, 191, 206, 0.15);
+$rgba-light-blue: rgba(139, 188, 223, 0.5);
+$rgba-grey-122: rgba(21, 80, 122, 0.15);
+$rgba-blue: rgba(156, 191, 206, 0.25);
+$rgba-green: rgba(145, 218, 139, 0.5);
+$rgba-dark-blue: rgba(21, 80, 122, 0.25);
+
+
+%flex-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+%flex-space {
+	display: flex;
+	justify-content: space-between;
+}
+
+%wrap-space {
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+%flex-wrap-space {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+$desktop-width: 1440px;
